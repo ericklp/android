@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ericklopes.cores.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:text="Vermelho" />
+
+    <SeekBar
+        android:id="@+id/seekBarRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:max="255"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/seekBarRed"
+        android:layout_below="@+id/seekBarRed"
+        android:layout_marginTop="31dp"
+        android:text="Verde" />
+
+    <SeekBar
+        android:id="@+id/seekBarGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="39dp"
+        android:max="255"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/seekBarGreen"
+        android:layout_below="@+id/seekBarGreen"
+        android:layout_marginTop="34dp"
+        android:text="Azul" />
+
+    <SeekBar
+        android:id="@+id/seekBarBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="33dp"
+        android:max="255"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/seekBarBlue"
+        android:layout_below="@+id/seekBarBlue"
+        android:layout_marginTop="34dp"
+        android:text="Selected Color:" />
+
+    <TextView
+        android:id="@+id/selectedColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/selectedColor"
+        android:layout_marginStart="62dp"
+        android:layout_toEndOf="@+id/selectedColor" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="31dp"
+        android:layout_toStartOf="@+id/selectedColor"
+        app:srcCompat="@mipmap/ic_launcher" />
+</android.widget.RelativeLayout>
