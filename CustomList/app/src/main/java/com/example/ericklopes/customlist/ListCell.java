@@ -25,7 +25,7 @@ public class ListCell extends ArrayAdapter<String> {
     private final Integer[] imageId;
 
     public ListCell(Activity context, String[] refri, Integer[] imageId) {
-        super(context, R.layout.list_cell);
+        super(context, R.layout.list_cell, refri);
         this.context = context;
         this.refri = refri;
         this.imageId = imageId;
