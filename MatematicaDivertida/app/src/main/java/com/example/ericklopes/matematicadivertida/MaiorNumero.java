@@ -104,7 +104,7 @@ public class MaiorNumero extends AppCompatActivity {
         resposta.setText("");
 
         int[] sorted_arr = {num1, num2, num3};
-        sorted_arr = Arrays.sort(sorted_arr);
+        Arrays.sort(sorted_arr);
 
         aux = String.valueOf(sorted_arr[2]) + String.valueOf(sorted_arr[1]) + String.valueOf(sorted_arr[0]);
         resultado = Integer.parseInt(aux);
