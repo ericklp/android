@@ -6,17 +6,10 @@ Trabalho feito na disciplina TI159 Topicos Especiais (Mobile) - N do curso notur
   - Aritimética Básica
   - Maior Número
 
-# Screenshoots
 
-# Tela Inicial
+<img src="/screenshots/MatematicaDivertidaMain.png" width="280"/> <img src="/screenshots/MatematicaDivertidaAritmetica.png" width="280"/> <img src="/screenshots/MatematicaDivertidaMaiorNumero.png" width="280" />
 
-<img src="/screenshots/MatematicaDivertidaMain.png?raw=true" width="100" height="100">
 
-# Aritimética Básica
-![Alt text](/screenshots/MatematicaDivertidaAritmetica.png?raw=true "Tela Aritmetica"){:height="50%" width="50%"}
-
-# Maior Número
-![Alt text](/screenshots/MatematicaDivertidaMaiorNumero.png?raw=true "Tela Aritmetica"){:height="50%" width="50%"}
 
 # Especificações
 Matemática Divertida
