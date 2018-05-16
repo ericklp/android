@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Random;
+import java.util.Arrays;
 
 public class MaiorNumero extends AppCompatActivity {
 
@@ -94,7 +95,6 @@ public class MaiorNumero extends AppCompatActivity {
 
     public void geraNumeros() {
         int num1, num2, num3;
-        int maior = 0, meio = 0 , menor = 0;
 
         Random randomGenerator = new Random();
         num1 = randomGenerator.nextInt(10);
@@ -103,40 +103,10 @@ public class MaiorNumero extends AppCompatActivity {
         num_str = String.valueOf(num1) + " - " + String.valueOf(num2) + " - " + String.valueOf(num3);
         resposta.setText("");
 
-        if (num1 >= num2 && num1 >= num3) {
-            maior = num1;
-            if (num2 > num3) {
-                meio = num2;
-                menor = num3;
-            } else {
-                meio = num3;
-                menor = num2;
-            }
-        } else {
-            if (num2 >= num1 && num2 >= num3) {
-                maior = num2;
-                if (num1 > num3) {
-                    meio = num1;
-                    menor = num3;
-                } else {
-                    meio = num3;
-                    menor = num1;
-                }
-            } else {
-                if (num3 >= num1 && num3 >= num2) {
-                    maior = num3;
-                    if (num1 > num2) {
-                        meio = num1;
-                        menor = num2;
-                    } else {
-                        meio = num2;
-                        menor = num1;
-                    }
-                }
-            }
-        }
+        int[] sorted_arr = {num1, num2, num3};
+        sorted_arr = Arrays.sort(sorted_arr);
 
-        aux = String.valueOf(maior) + String.valueOf(meio) + String.valueOf(menor);
+        aux = String.valueOf(sorted_arr[2]) + String.valueOf(sorted_arr[1]) + String.valueOf(sorted_arr[0]);
         resultado = Integer.parseInt(aux);
 
         numeros.setText(num_str);
