@@ -8,13 +8,14 @@ Trabalho feito na disciplina TI159 Topicos Especiais (Mobile) - N do curso notur
 
 # Screenshoots
 
-Tela Inicial
-![Alt text](/screenshots/MatematicaDivertidaMain.png?raw=true "Tela Inicial"){:height="50%" width="50%"}
+# Tela Inicial
 
-Aritimética Básica
+<img src="/screenshots/MatematicaDivertidaMain.png?raw=true" width="100" height="100">
+
+# Aritimética Básica
 ![Alt text](/screenshots/MatematicaDivertidaAritmetica.png?raw=true "Tela Aritmetica"){:height="50%" width="50%"}
 
-Maior Número
+# Maior Número
 ![Alt text](/screenshots/MatematicaDivertidaMaiorNumero.png?raw=true "Tela Aritmetica"){:height="50%" width="50%"}
 
 # Especificações
