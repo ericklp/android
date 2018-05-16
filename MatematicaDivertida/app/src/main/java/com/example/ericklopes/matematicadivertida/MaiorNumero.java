@@ -94,7 +94,7 @@ public class MaiorNumero extends AppCompatActivity {
 
     public void geraNumeros() {
         int num1, num2, num3;
-        int maior, meio, menor;
+        int maior = 0, meio = 0 , menor = 0;
 
         Random randomGenerator = new Random();
         num1 = randomGenerator.nextInt(10);
