@@ -8,7 +8,7 @@ Trabalho feito na disciplina TI159 Topicos Especiais (Mobile) - N do curso notur
 
 
  <img src="/screenshots/MatematicaDivertidaSplashScreen.png" width="281"/> <img src="/screenshots/MatematicaDivertidaMain.png" width="281"/>
-<img src="/screenshots/MatematicaDivertidaContagem.png" width="280"/> <img src="/screenshots/MatematicaDivertidaAritmetica.png" width="280"/> <img src="/screenshots/MatematicaDivertidaMaiorNumero.png" width="280" />
+<img src="/screenshots/MatematicaDivertidaContagem.png" width="281"/> <img src="/screenshots/MatematicaDivertidaAritmetica.png" width="281"/> <img src="/screenshots/MatematicaDivertidaMaiorNumero.png" width="281" />
 
 
 
