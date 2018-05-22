@@ -151,6 +151,7 @@ public class Contagem extends AppCompatActivity {
 
         alerta = builder.create();
         alerta.show();
+
     }
 
     public void geraNumeros() {
